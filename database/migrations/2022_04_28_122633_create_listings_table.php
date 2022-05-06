@@ -16,7 +16,8 @@ class CreateListingsTable extends Migration
         Schema::create('listings', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('tag');
+            $table->string('logo')->nullable;
+            $table->string('tags');
             $table->string('company');
             $table->string('location');
             $table->string('email');
