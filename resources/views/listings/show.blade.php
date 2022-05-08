@@ -34,16 +34,16 @@
             </div>
       
     </x-card>
-    <x-card class="mt-4 p-2 flex space-x-6">
+    <!-- <x-card class="mt-4 p-2 flex space-x-6">
         <a href="/listings/{{$listing->id}}/edit">
            Edit
         </a>
         <form action="/listings/{{$listing->id}}" method="post">
-                            @csrf
-                            @method('DELETE')
-                            <button class="text-red-500">Delete</button>
-                        </form>
-    </x-card>
+            @csrf
+            @method('DELETE')
+            <button class="text-red-500">Delete</button>
+        </form>
+    </x-card> -->
 </div>
 
 </x-layouts>
